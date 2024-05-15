@@ -1,0 +1,27 @@
+.conteiner {
+  display: flex;
+  width: 334px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 5px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
